@@ -1,5 +1,4 @@
 # CIFRADO CÉSAR
-<p>
 ![9/140](assets/docs/logoFinal.jpg "9/140")
 
  Objetivos del Programa:
