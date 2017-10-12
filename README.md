@@ -16,7 +16,7 @@
 <p>El usuario no debe poder ingresar un campo vacío o que contenga números. </p>
 
 ## Diagrama de Flujo:
-![Diagrama de Flujo Cifrado César](assets/docs/cifradoCesar.jpg "Diagrama de Flujo Cifrado César")
+![Diagrama Cifrado César](assets/docs/FlujogramaCifradoCesar.jpg "Diagrama de Flujo Cifrado Cesar")
 
 
 ### Pseudocodigo
