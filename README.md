@@ -1,7 +1,8 @@
 # CIFRADO CÉSAR
+<p>
+![9/140](assets/docs/LOGO FINAL.jpg "9/140")
 
-
-## Objetivos del Programa:
+ Objetivos del Programa:
 <p> Crea una web que pida, por medio de un prompt(), una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado César con el parámetro de desplazamiento de 33 espacios hacia la derecha</p>
 
 <p>Por ejemplo:</p>
@@ -25,9 +26,9 @@ ALGORITMO Cifrado Cesar
 2.        Mostrar  str = str.toUpperCase();
 3.     FIN FUNCION
 4.     FUNCION cipher(string)
-5.           Definir  encryptedCharacterPosition = 0;  newString = “”;                                         encryptedWord= “”;
+5.           Definir  encryptedCharacterPosition = 0;  newString = “”; encryptedWord= “”;
 6.       SI (string.length === 0 || containsNumber(string)) ENTONCES
-7.          Mostrar (“No estas ingresando una cadena, no ingreses                          campos vacíos ni números”);
+7.          Mostrar (“No estas ingresando una cadena, no ingreses campos vacíos ni números”);
 8.       SINO
 9.          PARA (  i = 0; i < string.length; i++)  HACER
 10.              Definir asciiCode = string.charCodeAt(i);
@@ -43,7 +44,7 @@ ALGORITMO Cifrado Cesar
 20.     FIN SI
 21.   FIN FUNCION
 22.  FUNCION decipher(string)
-23.        Definir  positionOfTheDecryptedCharacter  = 0;                                 decryptedCharacter = “”;                decryptedWord= “”;
+23.        Definir  positionOfTheDecryptedCharacter  = 0; decryptedCharacter = “”;decryptedWord= “”;
 24.     SI (string.length===0 || containsNumber(string)) ENTONCES
 25.        Mostrar (“No estas ingresando una cadena, no ingreses campos vacíos ni números”);
 26.     SINO
